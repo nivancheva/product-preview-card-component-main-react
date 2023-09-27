@@ -1,1 +1,40 @@
+main {
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
 
+.product {
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+.product_content {
+    display: grid;
+    gap: 1rem;
+    background-color: var(--clr-white);
+    padding: 2em;
+}
+
+.flex-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    cursor: pointer;
+    color: var(--clr-white);
+    border: none;
+    background-color: var(--clr-cyan);
+    border-radius: .5rem;
+    padding: .75rem 1.5rem;
+    font-weight: var(--fw-bold);
+    font-size: .9375rem;
+
+    display: inline-flex;
+    gap: .75em;
+    align-items: center;
+    justify-content: center;
+}

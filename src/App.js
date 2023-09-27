@@ -16,7 +16,9 @@ function App() {
             <p class="product_price">$149.99</p>
             <p class="product_original-price"><s>$169.99</s></p>
           </div>
-          <button className='btn'>Add to Cart</button>
+          <button className='btn'>
+            <img src="./images/icon-cart.svg"/>
+            Add to Cart</button>
         </div>
       </article>
     </main>

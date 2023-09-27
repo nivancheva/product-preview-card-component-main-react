@@ -35,4 +35,7 @@ body {
   font-family: var(--ff-main);
   font-weight: var(--fw-regular);
   font-size: var(--fz-main);
+
+  background-color: var(--clr-cream);
+  color: var(--clr-grayish-blue);
 }
